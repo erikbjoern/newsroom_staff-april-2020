@@ -13,43 +13,14 @@ h6 {
 p {
   font-family: "EB Garamond", serif;
 }
-
-.header.menu {
-  background-color: #409d9b !important;
-  width: 100% !important;
-}
-
-.header > * {
-  font-family: "Quattrocento", serif;
-  color: white !important;
-}
-
-.navbar-text {
-  color: white;
+.header {
+  background-color: #409d9b;
+  padding: 20px;
 }
 
 .writing-container {
   float: left; 
-  padding-left: 40px; 
+  padding-left: 20px; 
   padding-top: 40px;
   width: 40% !important;
-}
-
-.login-container {
-  height: 80vh;
-}
-
-#login-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding: 20px;
-  background-color: #409d9b;
-  min-height: 35vh;
-  width: 15vw;
-  border-radius: 10px;
-}
-
-#login-form > * {
-  margin: 1px
 }
