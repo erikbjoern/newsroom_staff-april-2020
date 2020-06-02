@@ -8,6 +8,13 @@ import './css/index.css';
 
 axios.defaults.baseURL = "https://dailynewssense-api.herokuapp.com/api"
 
+if (process.env.NODE_ENV === "production") {
+  axios.defaults.baseURL = process.env.REACT_APP_HEROKUURL;
+} else if (process.env.NODE_ENV === "development") {
+  axios.defaults.baseURL = process.env.REACT_APP_LOCALURL;
+}
+const store = configureStore();
+window.store = store;
 ReactDOM.render(
   <React.StrictMode>
     <App />
