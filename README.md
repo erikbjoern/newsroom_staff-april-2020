@@ -34,6 +34,10 @@ To run this app locally, you need to clone both this and the [API](https://githu
 
 The application was developed test driven using [Cypress](https://cypress.io). To run the tests locally, run `$ yarn cypress` which executes commands for both starting the local server and Cypress, thank to [start-server-and-test](https://github.com/bahmutov/start-server-and-test#readme). Having the API running is not necessary for this, since the tests use mock data.
 
+## Continuous Integration
+
+Is setup with [Semaphore](https://semaphoreci.com/)
+
 ## Styling:
 
 Was done with the help of [Semantic UI for React](https://react.semantic-ui.com/)
@@ -45,3 +49,4 @@ In addition to the packages already mentioned, we used:
 * [redux](https://redux.js.org/introduction/getting-started) for application state management
 * [axios](https://github.com/axios/axios#readme) for making HTTP calls
 * [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom#readme) for routing
+
