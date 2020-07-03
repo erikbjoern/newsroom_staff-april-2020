@@ -28,7 +28,7 @@ Visit the [live website](http://dailynewssense-staff.netlify.app) or clone the r
 
 ## Clone:
 
-To run this app locally, you need to clone both this and the [API](https://github.com/erikbjoern/newsroom_api-april-2020) and follow the instructions there. When the API is running, run `$ yarn start` and visit http://localhost:3002. There's also a [user facing client](https://github.com/erikbjoern/newsroom_client-april-2020) that uses the same API.
+To run this app locally, you need to clone both this and the [API](https://github.com/erikbjoern/newsroom_api-april-2020) and follow the instructions there. When the API is running, run `$ yarn start` and visit http://localhost:3002. There's also a [user facing client](https://github.com/erikbjoern/newsroom_client-april-2020) and a [mobile app](https://github.com/erikbjoern/newsroom_mobile-april-2020) that use the same API.
 
 ## Testing:
 
